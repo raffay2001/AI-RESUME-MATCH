@@ -1,0 +1,33 @@
+# Node.js (Frontend - React)
+node_modules/
+dist/
+.vite/
+
+# Python (Backend - FastAPI)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+/uploads
+
+# Docker
+*.log
+docker-compose.override.yml
+mongodb_data/
+uploads/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.out
+*.exe
+*.o
+*.so
+*.a
+*.dll
