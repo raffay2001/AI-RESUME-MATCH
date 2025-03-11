@@ -7,7 +7,7 @@ Here's the updated **`docker.md`** file with instructions for setting up both th
 # Docker Setup Instructions (Full Stack: Frontend + Backend + MongoDB)
 
 ## 1️⃣ Prerequisites
-Ensure you have **Docker** and **Docker Compose** installed on your system.
+Ensure you have **Docker Desktop**, **Docker** and **Docker Compose** installed on your system.
 
 ## 2️⃣ Setup Environment Variables
 - Navigate to the `backend` directory and create a `.env` file:
@@ -19,7 +19,7 @@ Ensure you have **Docker** and **Docker Compose** installed on your system.
 ## 3️⃣ Build and Start the Containers
 Run the following command from the **project root directory**:
    ```bash
-   docker-compose up --build
+   docker compose up --build
    ```
 
 ## 4️⃣ Access the Application
@@ -32,13 +32,13 @@ Run the following command from the **project root directory**:
 ## 5️⃣ Stopping the Containers
 To stop all services, run:
    ```bash
-   docker-compose down
+   docker compose down
    ```
 
 ## 6️⃣ Viewing Logs
 To monitor the logs of running containers:
    ```bash
-   docker-compose logs -f
+   docker compose logs -f
    ```
 
 ## 7️⃣ Notes
